@@ -1,15 +1,15 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <h1>Step Function Approvals</h1>
+  <ApprovalsContainer />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import ApprovalsContainer from './components/ApprovalsContainer.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    ApprovalsContainer
   }
 }
 </script>
